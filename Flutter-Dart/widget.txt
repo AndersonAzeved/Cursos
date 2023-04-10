@@ -1,0 +1,30 @@
+
+AULA #01
+WIDGETS
+
+Row: Uma linha (Row) é um widget que coloca seus filhos em uma linha horizontal, um ao lado do outro.
+
+Column: Uma coluna (Column) é um widget que coloca seus filhos em uma coluna vertical, um abaixo do outro.
+
+Stack: Uma pilha (Stack) é um widget que coloca seus filhos um sobre o outro em camadas, semelhante à forma como as janelas são empilhadas em um sistema operacional.
+
+Center: O widget Center centraliza um filho na horizontal e na vertical.
+
+Align: O widget Align é usado para alinhar seu filho dentro de um recipiente. Você pode definir a posição vertical e horizontal do filho em relação ao recipiente.
+
+Padding: O padding é um espaço em branco que é adicionado ao redor do filho do widget. Você pode definir o preenchimento em todos os quatro lados ou em lados específicos. Isso é útil para adicionar espaço entre os widgets ou para alinhar os widgets corretamente em sua interface do usuário.
+
+
+
+
+FloatingActionButton: O botão de ação flutuante (FloatingActionButton) é um botão circular que flutua sobre o conteúdo da interface do usuário e é usado para executar uma ação importante na tela. É frequentemente usado para acionar uma ação principal em um aplicativo.
+
+Stepper: O Stepper é um widget que permite que o usuário percorra uma série de etapas em uma determinada ordem. Cada etapa pode ter uma descrição e um ícone associado a ela. O usuário pode avançar ou retroceder pelas etapas, dependendo do progresso atual.
+
+GridView: O GridView é um widget que organiza seus filhos em uma grade de células. Cada célula pode conter um widget diferente e você pode definir o número de células em cada linha e coluna.
+
+Image: O widget Image é usado para exibir imagens em um aplicativo Flutter. Ele pode exibir imagens de uma variedade de fontes, incluindo a rede, o sistema de arquivos local e até mesmo dados binários em memória.
+
+AlertDialog: O AlertDialog é um widget usado para exibir uma caixa de diálogo com uma mensagem e botões para o usuário interagir. É útil para exibir informações importantes ou solicitar confirmação do usuário antes de realizar uma ação.
+
+CupertinoAlertDialog: O CupertinoAlertDialog é semelhante ao AlertDialog, mas segue as diretrizes de design da Apple. Ele é projetado para parecer nativo em dispositivos iOS e inclui botões estilizados com uma aparência semelhante à dos botões padrão do iOS.
