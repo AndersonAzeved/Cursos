@@ -15,10 +15,28 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
+  int likes = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.teal,
+        title: const Text('Aplicativo do Curso'),
+      ),
+      body: Center(
+        child: Text(
+            'Olá, meu nome é Anderson Azevedo\nAtualmente tenho $likes likes'),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          setState(() {
+            likes++;
+          });
+        },
+        backgroundColor: Colors.teal,
+        child: const Icon(Icons.thumb_up),
+      ),
     );
   }
 }
